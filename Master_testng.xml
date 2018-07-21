@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Manchester_United_Kingdom">
+<suite-files>
+<suite-file path="HelpPage_TestNG.xml"/>
+<suite-file path="LoginAndForgetPasswordtestng.xml"/>
+<suite-file path="SignUp_testng.xml"/>
+<suite-file path="Fixture_testng.xml"/>
+<suite-file path="ALLMatches.xml"/>
+</suite-files>
+</suite>

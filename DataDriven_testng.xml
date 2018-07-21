@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Module">
+  <test name="Data Driven for Login">
+    <classes>
+      <class name="com.RoughWorkTest.DataDriven"/>
+    </classes>
+  </test> 
+</suite>

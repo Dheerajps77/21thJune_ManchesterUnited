@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FixturePageModule]">
+  <test thread-count="5" name="Fixture(failed)">
+    <classes>
+      <class name="com.ManchesterUnitedKingdom.TestClass.FixturesPageClass">
+        <methods>
+          <include name="Verification_Google_Calender_title"/>
+          <include name="FixtureLink"/>
+          <include name="CloseBroswer"/>
+          <include name="InvokeBroswer"/>
+        </methods>
+      </class> <!-- com.ManchesterUnitedKingdom.TestClass.FixturesPageClass -->
+    </classes>
+  </test> <!-- Fixture(failed) -->
+</suite> <!-- Failed suite [FixturePageModule] -->

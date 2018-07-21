@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Matches]">
+  <test thread-count="5" name="All Matches flow(failed)">
+    <classes>
+      <class name="com.ManchesterUnitedKingdom.TestClass.All_Matches">
+        <methods>
+          <include name="CloseBroswer"/>
+          <include name="AllMatch"/>
+          <include name="InvokeBroswer"/>
+          <include name="Login"/>
+          <include name="AccountRegistration"/>
+        </methods>
+      </class> <!-- com.ManchesterUnitedKingdom.TestClass.All_Matches -->
+    </classes>
+  </test> <!-- All Matches flow(failed) -->
+</suite> <!-- Failed suite [All Matches] -->

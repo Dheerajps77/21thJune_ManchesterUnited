@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Login Module]">
+  <test thread-count="5" name="Data Driven for Login(failed)">
+    <classes>
+      <class name="com.RoughWorkTest.DataDriven">
+        <methods>
+          <include name="CloseBroswer"/>
+          <include name="Login" invocation-numbers="2"/>
+          <include name="OpenBroswer"/>
+        </methods>
+      </class> <!-- com.RoughWorkTest.DataDriven -->
+    </classes>
+  </test> <!-- Data Driven for Login(failed) -->
+</suite> <!-- Failed suite [Login Module] -->

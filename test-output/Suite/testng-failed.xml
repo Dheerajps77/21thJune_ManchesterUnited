@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.ManchesterUnitedKingdom.TestClass.LoginAndForgetPasswordClass">
+        <methods>
+          <include name="LoginPageModuletest"/>
+          <include name="CloseBroswer"/>
+          <include name="InvokeBroswer"/>
+          <include name="frogetPassword"/>
+        </methods>
+      </class> <!-- com.ManchesterUnitedKingdom.TestClass.LoginAndForgetPasswordClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

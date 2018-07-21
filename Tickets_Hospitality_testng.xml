@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tickets And Hospitality Module">
+  <test name="Tickets And Hospitality Page">
+    <classes>
+      <class name="com.ManchesterUnitedKingdom.TestClass.Tickets_HospitalityClass"/>
+    </classes>
+  </test>
+</suite>
